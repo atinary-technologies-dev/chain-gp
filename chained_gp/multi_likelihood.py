@@ -1,6 +1,6 @@
 from GPy.likelihoods.likelihood import Likelihood
 import numpy as np
-from scipy.misc import logsumexp
+from scipy.special import logsumexp
 from GPy.util.misc import safe_exp
 
 class MultiLikelihood(Likelihood):

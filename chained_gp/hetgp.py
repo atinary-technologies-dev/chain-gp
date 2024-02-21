@@ -13,7 +13,7 @@ class HetGP(MultiLikelihood):
     """
     def __init__(self, gp_link=None):
         if gp_link is not None:
-            raise NotImplementedError, "this likelihood assumes a complicated pair of link functions..."
+            raise NotImplementedError("this likelihood assumes a complicated pair of link functions...")
 
         super(HetGP, self).__init__(link_functions.Identity(), 'HetGP')
 
