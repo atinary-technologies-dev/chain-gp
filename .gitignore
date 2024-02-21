@@ -50,3 +50,16 @@ iterate.dat
 ###################
 *.orig
 
+#   virtual env   #
+###################
+myenv/
+
+
+
+#  folder not used   #
+###################
+
+chained_gp/__pycache__
+chained_gp/cython
+chained_gp/data_download
+chained_gp/modx_data
